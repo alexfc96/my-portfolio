@@ -42,7 +42,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 2% 1% 1% 1%;
+  margin: 1% 1% 0px 1%;
 }
 
 .social-media-links ul {
@@ -64,6 +64,7 @@ p {
 .intern-links {
   display: flex;
   flex-direction: row;
+  margin: 1.5%;
 }
 
 .intern-links ul {
@@ -72,7 +73,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .intern-links li {
@@ -188,8 +189,9 @@ p {
 .my_projects li {
   width: 49%;
   border-bottom: solid 1px;
-  padding-bottom: 3%;
+  padding-bottom: 1.2%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
